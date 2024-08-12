@@ -1,0 +1,54 @@
+.Node {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.NodeInnerWrapper {
+    height: 100%;
+    display: inline;
+    position:absolute;
+}
+
+#Content.NodeInnerWrapper  {
+    z-index: 1;
+    width: 100%;
+    background-color: orange;
+}
+
+#left.NodeInnerWrapper  {
+    left: -8px;
+    z-index: 2;
+}
+
+#right.NodeInnerWrapper {
+    right: -8px;
+    z-index: 2;
+}
+
+
+#NodeCover {
+    position: absolute;
+    width: 75%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgb(108, 108, 108);
+}
+
+.AddButton {
+    border-radius: 25px;
+    display: block;
+
+    width: 25px;
+    height: 50px;
+
+    opacity: .25;
+    background-color: rgb(101, 85, 241);
+}
+
+.AddButton:hover {
+    opacity: .75;
+}

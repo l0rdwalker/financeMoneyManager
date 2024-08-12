@@ -1,0 +1,36 @@
+
+    /*
+    <div className="sidebar">
+      <div className='top'>
+        <span className='logo'>MoneyBox</span>
+      </div>
+      <hr /> 
+      <div className='middle'>
+        <ul>
+        <p className='title'>Settings</p>
+          <li>
+            <MenuIcon/>
+            <span>Name</span>
+          </li>
+
+          <p className='title'>SubTitle</p>
+          <li>
+            <MenuIcon/>
+            <span>Dashboard</span>
+          </li>
+          <li>
+            <MenuIcon/>
+            <span>Dashboard</span>
+          </li>
+          <p className='title'>SubTitle</p>
+          <li>
+            <MenuIcon/>
+            <span>Dashboard</span>
+          </li>
+        </ul>
+      </div>
+
+
+      <div className='bottom'>Color Options</div>
+    </div>
+    */

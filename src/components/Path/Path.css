@@ -1,0 +1,8 @@
+.Path {
+    position: absolute;
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    transform-origin: top left;
+    z-index: 0;
+}
